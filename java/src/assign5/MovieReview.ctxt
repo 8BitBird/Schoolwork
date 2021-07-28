@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MovieReview
+comment0.text=\r\n\ \ CS3354\ Spring\ 2019\ Review\ Class\ Implementation\r\n\ \ \ \ @author\ metsis\r\n\ \ \ \ @author\ tesic\r\n\ \ \ \ @author\ wen\r\n
+comment1.params=id\ text\ realPolarity
+comment1.target=MovieReview(int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor.\r\n\ @param\ id\r\n\ @param\ text\r\n\ @param\ realPolarity\ \r\n
+comment2.params=
+comment2.target=int\ getId()
+comment2.text=\r\n\r\n\ @return\ Tweet\ id\ field\r\n
+comment3.params=
+comment3.target=java.lang.String\ getText()
+comment3.text=\r\n\r\n\ @return\ Tweet\ text\ field\r\n
+comment4.params=
+comment4.target=int\ getPredictedPolarity()
+comment4.text=\r\n\r\n\ @return\ predictedPolarity\ field\r\n
+comment5.params=predictedPolarity
+comment5.target=void\ setPredictedPolarity(int)
+comment5.text=\r\n\r\n\ @param\ predictedPolarity\r\n
+comment6.params=
+comment6.target=int\ getRealPolarity()
+comment6.text=\r\n\ \r\n\ @return\ realPolarity\r\n
+numComments=7

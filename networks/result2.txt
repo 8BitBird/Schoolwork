@@ -1,0 +1,162 @@
+TOPOLOGY REPORT FOR ROUND: 4
+
+Chart for Node: 0
+Round: 4
+====================
+Dest	Cost	Next
+1	1287	5
+2	415	5
+3	1330	4
+4	722	5
+5	95	5
+6	709	5
+7	190	5
+8	319	5
+9	711	9
+--------------------
+
+Chart for Node: 1
+Round: 4
+====================
+Dest	Cost	Next
+0	1287	8
+2	1064	8
+3	446	3
+4	776	6
+5	1192	8
+6	592	6
+7	1097	8
+8	968	8
+9	1374	8
+--------------------
+
+Chart for Node: 2
+Round: 4
+====================
+Dest	Cost	Next
+0	415	8
+1	1064	8
+3	1278	8
+4	670	6
+5	320	8
+6	486	8
+7	225	8
+8	96	8
+9	310	9
+--------------------
+
+Chart for Node: 3
+Round: 4
+====================
+Dest	Cost	Next
+0	1330	4
+1	446	1
+2	1278	4
+4	608	4
+5	1235	4
+6	792	4
+7	1311	4
+8	1182	4
+9	1331	4
+--------------------
+
+Chart for Node: 4
+Round: 4
+====================
+Dest	Cost	Next
+0	722	5
+1	776	6
+2	670	8
+3	608	3
+5	627	5
+6	184	6
+7	703	8
+8	574	6
+9	723	9
+--------------------
+
+Chart for Node: 5
+Round: 4
+====================
+Dest	Cost	Next
+0	95	0
+1	1192	7
+2	320	7
+3	1235	4
+4	627	4
+6	614	7
+7	95	7
+8	224	7
+9	630	7
+--------------------
+
+Chart for Node: 6
+Round: 4
+====================
+Dest	Cost	Next
+0	709	7
+1	592	1
+2	486	8
+3	792	4
+4	184	4
+5	614	7
+7	519	8
+8	390	8
+9	796	2
+--------------------
+
+Chart for Node: 7
+Round: 4
+====================
+Dest	Cost	Next
+0	190	5
+1	1097	8
+2	225	8
+3	1311	6
+4	703	6
+5	95	5
+6	519	8
+8	129	8
+9	535	8
+--------------------
+
+Chart for Node: 8
+Round: 4
+====================
+Dest	Cost	Next
+0	319	7
+1	968	1
+2	96	2
+3	1182	6
+4	574	6
+5	224	7
+6	390	6
+7	129	7
+9	406	2
+--------------------
+
+Chart for Node: 9
+Round: 4
+====================
+Dest	Cost	Next
+0	711	0
+1	1374	2
+2	310	2
+3	1331	4
+4	723	4
+5	630	8
+6	796	2
+7	535	2
+8	406	2
+--------------------
+PROGRAM HAS REACHED CONVERGENCE
+--------------------
+DV PACKETS SENT UP TO ROUND 4: 120
+LAST NODE TO UPDATE FOR ROUND 4: 5
+
+TOTAL ROUNDS UNTIL COMPLETE CONVERGENCE: 3
+DV PACKETS SENT UP TO CONVERGENCE: 120
+LAST NODE TO UPDATE BEFORE CONVERGENCE: 5
+Routing package from  0 to 7:
+0 to 5
+5 to 7

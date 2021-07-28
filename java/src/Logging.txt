@@ -1,0 +1,15 @@
+Aug 20, 2020 4:25:49 PM assign5.GUIMain main
+INFO: Software opened.
+
+Aug 20, 2020 4:26:28 PM assign5.GUIMain$1 actionPerformed
+INFO: All reviews displayed.
+
+Aug 20, 2020 4:35:41 PM assign5.GUIMain$2 actionPerformed
+INFO: Substring entered for searching.
+
+Aug 20, 2020 4:35:41 PM assign5.GUIMain$2 actionPerformed
+WARNING: Illegal input entered attempting to load.
+
+Aug 20, 2020 4:36:39 PM assign5.GUIMain$3 windowClosing
+INFO: User chose to close application.
+

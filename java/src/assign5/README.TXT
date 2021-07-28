@@ -1,0 +1,1 @@
+Run the GUIMain as the main driver.  SentimentAnalysisApp, MovieReview, ReviewHandler, and AbstractReviewHandler are all unaltered.  

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login to Website</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="script.js"> </script>
+
+</head>
+
+<?php
+session_start();
+?>
+
+<body>
+    <h1>User Information</h1>
+    <p>Please sign in.</p>
+    <!--<form action="userInfo.php" method="post" name="userInfo" onsubmit="return (validateUserInfo());">-->
+    <form action="layoutPage.html" method="post" name="userInfo" onsubmit="start.php">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        Username: <br>
+                        <input type="text" maxlength="100" name="username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password: <br>
+                        <input type="text" maxlength="100" name="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" value="Login">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+    </form>
+</body>
+</html>

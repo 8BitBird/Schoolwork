@@ -1,0 +1,1 @@
+Program accepts binary input from remote port and sends cooresponding char.

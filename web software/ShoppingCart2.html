@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="script.js"> </script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">     </script>
+    </head>
+    <body>
+
+</head>
+
+<body>
+
+    <h1>Shopping Cart</h1>
+
+ 	<!--<form name="shoppingCartForm" action="cart_submit.php" method="post">-->
+ 	    <form name="shoppingCartForm" method="post">
+
+        <table id="shoppingCart">
+            <tr>
+                <th> Product </th>
+                <th> Units </th>
+                <th> Price </th>
+                <th> Remove </th>
+            </tr>
+            <tr id="itemRow">
+                <td>
+                    <select>
+                        <!--<option value="item"> Please Select an Item </option> -->
+                        <option value="" selected disabled> Please Select an Item </option>
+                        <option value="product1"> Product1 </option>
+                        <option value="product2"> Product2 </option>
+                        <option value="product3"> Product3 </option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" name="units" />
+                </td>
+                <td>
+                    $
+                </td>
+                <td>
+                    <button onclick="removeRow("shoppingCart")"> X </button>
+                </td>
+            </tr>
+
+        </table>
+          <br><button onclick="addArow("shoppingCart")"> Add Another Item </button>
+          <br><br>
+          Total: $<br><br>
+        <input type="submit" value="Checkout" />
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+Group project: Shopfront basic web design concept.  layoutPage.html is the main page.

@@ -1,0 +1,62 @@
+TOPOLOGY REPORT FOR ROUND: 2
+
+Chart for Node: 0
+Round: 4
+====================
+Dest	Cost	Next
+1	907	1
+2	291	2
+3	931	1
+4	960	2
+--------------------
+
+Chart for Node: 1
+Round: 4
+====================
+Dest	Cost	Next
+0	907	0
+2	746	3
+3	24	3
+4	220	3
+--------------------
+
+Chart for Node: 2
+Round: 4
+====================
+Dest	Cost	Next
+0	291	0
+1	746	3
+3	722	3
+4	669	4
+--------------------
+
+Chart for Node: 3
+Round: 4
+====================
+Dest	Cost	Next
+0	931	1
+1	24	1
+2	722	2
+4	196	4
+--------------------
+
+Chart for Node: 4
+Round: 4
+====================
+Dest	Cost	Next
+0	960	2
+1	220	3
+2	669	2
+3	196	3
+--------------------
+PROGRAM HAS REACHED CONVERGENCE
+--------------------
+DV PACKETS SENT UP TO ROUND 4: 14
+LAST NODE TO UPDATE FOR ROUND 4: 4
+
+TOTAL ROUNDS UNTIL COMPLETE CONVERGENCE: 1
+DV PACKETS SENT UP TO CONVERGENCE: 14
+LAST NODE TO UPDATE BEFORE CONVERGENCE: 4
+Routing package from  0 to 3:
+0 to 1
+1 to 3

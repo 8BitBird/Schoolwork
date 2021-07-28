@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GUIMain
+comment0.text=\r\n\ GUI\ Interface\ \r\n\r\n\ @author\ Laura\ webber\r\n\ @author\ metsis\r\n\ @author\ tesic\r\n\ @author\ wen\r\n\ @version\ 4/19/19\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ windowClosing(java.awt.event.WindowEvent)
+numComments=5

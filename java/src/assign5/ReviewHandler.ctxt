@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ReviewHandler
+comment1.params=filePath\ realClass
+comment1.target=void\ loadReviews(java.lang.String,\ int)
+comment1.text=\r\n\ Loads\ reviews\ from\ a\ given\ path.\ If\ the\ given\ path\ is\ a\ .txt\ file,\ then\r\n\ a\ single\ review\ is\ loaded.\ Otherwise,\ if\ the\ path\ is\ a\ folder,\ all\ reviews\r\n\ in\ it\ are\ loaded.\r\n\ @param\ filePath\ The\ path\ to\ the\ file\ (or\ folder)\ containing\ the\ review(sentimentModel).\r\n\ @param\ realClass\ The\ real\ class\ of\ the\ review\ (0\ \=\ Negative,\ 1\ \=\ Positive\r\n\ 2\ \=\ Unknown).\r\n
+comment2.params=reviewFilePath\ realClass
+comment2.target=MovieReview\ readReview(java.lang.String,\ int)
+comment2.text=\r\n\ Reads\ a\ single\ review\ file\ and\ returns\ it\ as\ a\ MovieReview\ object.\r\n\ This\ method\ also\ calls\ the\ method\ classifyReview\ to\ predict\ the\ polarity\r\n\ of\ the\ review.\r\n\ @param\ reviewFilePath\ A\ path\ to\ a\ .txt\ file\ containing\ a\ review.\r\n\ @param\ realClass\ The\ real\ class\ entered\ by\ the\ user.\r\n\ @return\ a\ MovieReview\ object.\r\n\ @throws\ IOException\ if\ specified\ file\ cannot\ be\ opened.\r\n
+comment3.params=id
+comment3.target=void\ deleteReview(int)
+comment3.text=\r\n\ Deletes\ a\ review\ from\ the\ database,\ given\ its\ id.\r\n\ @param\ id\ The\ id\ value\ of\ the\ review.\r\n
+comment4.params=
+comment4.target=void\ loadSerialDB()
+comment4.text=\r\n\ Loads\ review\ database.\r\n
+comment5.params=id
+comment5.target=MovieReview\ searchById(int)
+comment5.text=\r\n\ Searches\ the\ review\ database\ by\ id.\r\n\ @param\ id\ The\ id\ to\ search\ for.\r\n\ @return\ The\ review\ that\ matches\ the\ given\ id\ or\ null\ if\ the\ id\ does\ not\r\n\ exist\ in\ the\ database.\r\n
+comment6.params=substring
+comment6.target=java.util.List\ searchBySubstring(java.lang.String)
+comment6.text=\r\n\ Searches\ the\ review\ database\ for\ reviews\ matching\ a\ given\ substring.\r\n\ @param\ substring\ The\ substring\ to\ search\ for.\r\n\ @return\ A\ list\ of\ review\ objects\ matching\ the\ search\ criterion.\r\n
+numComments=7

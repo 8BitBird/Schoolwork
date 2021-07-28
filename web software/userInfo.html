@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Personal Information</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="script.js"> </script>
+
+</head>
+
+<body>
+
+
+
+    <h1>User Information</h1>
+    <p>Please fill out the following information.</p>
+    <!--<form action="userInfo.php" method="post" name="userInfo" onsubmit="return (validateUserInfo());">-->
+    <form action="submit.php" method="post" name="userInfo" onsubmit="return (validateUserInfo());">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        Full Name: <br>
+                        <input type="text" maxlength="100" name="fullname" required>
+                    </td>
+                    <td>
+                        Phone Number: <br>
+                        <input type="number" minlength="12" maxlength="12" name="phone"
+                               placeholder="123-456-7890">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address Line 1: <br>
+                        <input type="text" maxlength="100" name="address1" required>
+                    </td>
+                    <td>
+                        Address Line 2: <br>
+                        <input type="text" maxlength="100" name="address2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        City: <br>
+                        <input type="text" maxlength="100" name="city" required>
+                    </td>
+                    <td>
+                        State: <br>
+                        <!--May want to switch for Abbreviations  -->
+                        <select name="state">
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                        </select>
+                </tr>
+                <tr>
+                    <td>
+                        Zip: <br>
+                        <input type="int" minlength="5" maxlength="9" name="zip" required>
+                    </td>
+                    <td>
+                        Email: <br>
+                        <input type="text" maxlength="100" name="email" required>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+
+
+            </tbody>
+        </table>
+        <br>
+
+
+    </form>
+    <!--<p>Go to <a href="cart.html">cart</a>?</p>-->
+
+
+</body>
+</html>

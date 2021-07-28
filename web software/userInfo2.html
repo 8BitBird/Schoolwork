@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Personal Information</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="script.js"> </script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">     </script>
+    </head>
+    <body>
+
+</head>
+<body onload="showStates()">
+
+    <h1>User Information</h1>
+    <p>Please fill out the following information.</p>
+    <!--<form action="userInfo.php" method="post" name="userInfo" onsubmit="return (validateUserInfo());">-->
+    <form action="submit.php" method="post" name="userInfo" onsubmit="return (validateUserInfo());">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        Full Name: <br>
+                        <input type="text" maxlength="100" name="fullname" required>
+                    </td>
+                    <td>
+                        Phone Number: <br>
+                        <input type="number" minlength="12" maxlength="12" name="phone"
+                               placeholder="123-456-7890">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address Line 1: <br>
+                        <input type="text" maxlength="100" name="address1" required>
+                    </td>
+                    <td>
+                        Address Line 2: <br>
+                        <input type="text" maxlength="100" name="address2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        City: <br>
+                        <input type="text" maxlength="100" name="city" required>
+                    </td>
+                    <td>
+                        State: <br>
+                        <!--May want to switch for Abbreviations  -->
+                        <select name="state" type="text" id = "statesHere" >
+                        </select>
+                </tr>
+                <tr>
+                    <td>
+                        Zip: <br>
+                        <input type="int" minlength="5" maxlength="9" name="zip" required>
+                    </td>
+                    <td>
+                        Email: <br>
+                        <input type="text" maxlength="100" name="email" required>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+
+
+            </tbody>
+        </table>
+        <br>
+
+
+    </form>
+    <!--<p>Go to <a href="cart.html">cart</a>?</p>-->
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+May 17, 2020 6:02:38 PM assign5.GUIMain main
+INFO: Software opened.
+
+May 17, 2020 6:02:44 PM assign5.GUIMain$2 actionPerformed
+INFO: Load review chosen.
+
+May 17, 2020 6:03:17 PM assign5.GUIMain$2 actionPerformed
+WARNING: Illegal input entered attempting to load.
+
+May 17, 2020 6:03:38 PM assign5.GUIMain$2 actionPerformed
+INFO: ID entered for searching.
+
+May 17, 2020 6:03:59 PM assign5.GUIMain$3 windowClosing
+INFO: User chose to close application.
+

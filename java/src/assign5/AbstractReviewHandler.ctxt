@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.target=AbstractReviewHandler
+comment0.text=\r\n\ CS3354\ Spring\ 2019\ Review\ Handler\ Abstract\ Class\ specification\r\n\ \ \ \ @author\ metsis\r\n\ \ \ \ @author\ tesic\r\n\ \ \ \ @author\ wen\r\n
+comment1.params=
+comment1.target=AbstractReviewHandler()
+comment10.params=substring
+comment10.target=java.util.List\ searchBySubstring(java.lang.String)
+comment10.text=\r\n\ Searches\ the\ review\ database\ for\ reviews\ matching\ a\ given\ substring.\r\n\ @param\ substring\ The\ substring\ to\ search\ for.\r\n\ @return\ A\ list\ of\ review\ objects\ matching\ the\ search\ criterion.\r\n
+comment2.params=filePath\ realClass
+comment2.target=void\ loadReviews(java.lang.String,\ int)
+comment2.text=\r\n\ Loads\ reviews\ from\ a\ given\ path.\ If\ the\ given\ path\ is\ a\ .txt\ file,\ then\r\n\ a\ single\ review\ is\ loaded.\ Otherwise,\ if\ the\ path\ is\ a\ folder,\ all\ reviews\r\n\ in\ it\ are\ loaded.\r\n\ @param\ filePath\ The\ path\ to\ the\ file\ (or\ folder)\ containing\ the\ review(sentimentModel).\r\n\ @param\ realClass\ The\ real\ class\ of\ the\ review\ (0\ \=\ Negative,\ 1\ \=\ Positive\r\n\ 2\ \=\ Unknown).\r\n\ @return\ A\ list\ of\ reviews\ as\ objects.\r\n
+comment3.params=reviewFilePath\ realClass
+comment3.target=MovieReview\ readReview(java.lang.String,\ int)
+comment3.text=\r\n\ Reads\ a\ single\ review\ file\ and\ returns\ it\ as\ a\ MovieReview\ object.\r\n\ This\ method\ also\ calls\ the\ method\ classifyReview\ to\ predict\ the\ polarity\r\n\ of\ the\ review.\r\n\ @param\ reviewFilePath\ A\ path\ to\ a\ .txt\ file\ containing\ a\ review.\r\n\ @param\ realClass\ The\ real\ class\ entered\ by\ the\ user.\r\n\ @return\ a\ MovieReview\ object.\r\n\ @throws\ IOException\ if\ specified\ file\ cannot\ be\ openned.\r\n
+comment4.params=review
+comment4.target=int\ classifyReview(MovieReview)
+comment4.text=\r\n\ Classifies\ a\ review\ as\ negative,\ or\ positive\ by\ using\ the\ text\ of\ the\ review.\r\n\ It\ updates\ the\ predictedPolarity\ value\ of\ the\ review\ object\ and\ it\ also\r\n\ returns\ the\ predicted\ polarity.\r\n\ Note\:\ to\ achieve\ the\ classification,\ this\ method\ depends\ on\ the\ external\r\n\ library\ sentiment.jar.\r\n\ @param\ review\ A\ review\ object.\r\n\ @return\ 0\ \=\ negative,\ 1\ \=\ positive.\r\n
+comment5.params=id
+comment5.target=void\ deleteReview(int)
+comment5.text=\r\n\ Deletes\ a\ review\ from\ the\ database,\ given\ its\ id.\r\n\ @param\ id\ The\ id\ value\ of\ the\ review.\r\n
+comment6.params=c
+comment6.target=void\ close(java.io.Closeable)
+comment6.text=\r\n\ Auxiliary\ convenience\ method\ used\ to\ close\ a\ file\ and\ handle\ possible\r\n\ exceptions\ that\ may\ occur.\r\n\r\n\ @param\ c\ The\ file\ to\ be\ closed\r\n
+comment7.params=
+comment7.target=void\ saveSerialDB()
+comment7.text=\r\n\ Saves\ the\ database\ in\ the\ working\ directory\ as\ a\ serialized\ object.\r\n
+comment8.params=
+comment8.target=void\ loadSerialDB()
+comment8.text=\r\n\ Loads\ review\ database.\r\n
+comment9.params=id
+comment9.target=MovieReview\ searchById(int)
+comment9.text=\r\n\ Searches\ the\ review\ database\ by\ id.\r\n\ @param\ id\ The\ id\ to\ search\ for.\r\n\ @return\ The\ review\ that\ matches\ the\ given\ id\ or\ null\ if\ the\ id\ does\ not\r\n\ exist\ in\ the\ database.\r\n
+numComments=11

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CreateTable
+comment0.text=\r\n\ This\ class\ creates\ a\ table\ of\ MovieReview\ objects\ from\ a\ list\ in\ a\ JFrame.\r\n\r\n\ @author\ webber\r\n\ @author\ metsis\r\n\ @version\ 4/19/19\r\n\ @params\ (MovieReview\ object\ List)\r\n
+comment1.params=mrl
+comment1.target=void\ MakeTable(java.util.List)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

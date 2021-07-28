@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SentimentAnalysisApp
+comment0.text=\r\n\r\n\ \ \ \ @author\ metsis\r\n\ \ \ \ @author\ tesic\r\n\ \ \ \ @author\ wen\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ printTableHead()
+comment3.params=mr
+comment3.target=void\ printTableContent(MovieReview)
+numComments=4

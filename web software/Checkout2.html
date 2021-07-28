@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+    <title>Checkout</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="script.js"> </script>
+
+</head>
+
+<body>
+
+    <h1>Checkout</h1>
+
+    <table id="totals">
+        <tr>
+            <td>
+                Total: $
+            </td>
+            <td id="totalShop"></td>
+        </tr>
+        <tr>
+            <td>
+                Total Tax: $
+            </td>
+            <td id="totalTax"></td>
+        </tr>
+        <tr>
+            <td>
+                Shipping: $
+            </td>
+            <td id="shipping"></td>
+        </tr>
+        <tr>
+            <td>
+                Total Amount Due: $
+            </td>
+            <td id="totalDue"></td>
+        </tr>
+    </table>
+
+
+    <form name="checkoutForm" action="checkout.php" method="post" />
+    <!--onsubmit="return (validateCheckout());"> -->
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        Payment:  <select name="cardType">
+                          <option value="" selected disabled> Please Choose a Credit Card Provider </option>
+                            <option value="visa"> Visa </option>
+                            <option value="mastercard"> MasterCard </option>
+                            <option value="americanExpress"> American Express </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Card Number:
+                        <span class="cardNumber">
+                            <input type="text" maxlength="16" name="cardNumber" placeholder="1111222233334444"
+                                   pattern="[0-9]{16}" size="20" required />
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Expiration:
+                        <span class="expiration" id="expDate">
+                            <input type="number" maxlength="2" name="month" placeholder="MM" pattern="[0-9]{2}" size="2" required />
+                            <span>/</span>
+                            <input type="number" maxlength="4" name="year" placeholder="YYYY" pattern="[0-9]{4}" size="4" required />
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <input type="checkbox" name="agreement"
+               value="Credit Card Agreement"
+               required> I agree and authorize the amount to be charged to my credit card.<br>
+        <br>
+        <input type="submit" value="Submit" />
+    </form>
+
+
+
+</body>
+</html>
